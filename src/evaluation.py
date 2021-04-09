@@ -8,8 +8,8 @@ from torch.autograd import Variable
 import torch.nn as nn
 import editdistance
 
-from .data import data as data
-from .cuda import CUDA
+from data import data as data
+from cuda import CUDA
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
