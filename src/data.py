@@ -8,7 +8,7 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 import torch
 from torch.autograd import Variable
 
-from ..cuda import CUDA
+from cuda import CUDA
 
 
 class CorpusSearcher(object):
