@@ -119,6 +119,9 @@ def extract_attributes(line, attribute_vocab, use_ngrams=False):
     return line, content, attribute_markers
 
 
+#This function takes source and target datasets, attribute vocabulary files and a configuration file. 
+#It return two dictionaries (source and target) with 6 items: the tokenized data, an attribute and n-gram attribute vocabulary, 
+# a tokenized list of content words for each sentence and a tokenized list of attribute words for each sentence
 def read_nmt_data(src, config, tgt, attribute_vocab, train_src=None, train_tgt=None,
         ngram_attributes=False):
 
